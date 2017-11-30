@@ -355,32 +355,6 @@
 {% endif %}
 <!-- End Footer Menu -->
 
-{% if copyright_text or show_credit_link %}
-<div class="copyright">
-  <div class="container">
-    <div class="row">
-
-      <!-- Copyright -->
-      <div class="col-sm-6 col-md-6">
-        {% if copyright_text %}        
-          <p>{{copyright_text}}</p>        
-        {% endif %}
-      </div>
-      <!-- End Copyright -->
-
-      <!-- Credit link -->
-      {% if show_credit_link %}
-        <div class="col-sm-6 col-md-6">
-          <p class="credit-link">Designed by <a href="http://www.zymphonies.com" target="_blank">Zymphonies</a></p>
-        </div>
-      {% endif %}
-      <!-- End Credit link -->
-      
-    </div>
-  </div>
-</div>
-{% endif %}
-
 
 <!-- Google map -->
 {% if is_front and page.google_map %}
